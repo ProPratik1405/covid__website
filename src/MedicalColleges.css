@@ -1,0 +1,21 @@
+.collegeTable {
+  display: flex;
+  flex-direction: column;
+  color: #373f51;
+  overflow: scroll;
+  height: 90vh;
+}
+
+.collegeTable tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.collegeTable tr:nth-child(odd) {
+  background-color: #d8dbe2;
+}
+
+.collegeTable tr td {
+  padding: 5px;
+}

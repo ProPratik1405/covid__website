@@ -1,0 +1,32 @@
+.table {
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  height: 55vh;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.table h1 {
+  color: #28df99;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  color: #393b44;
+  font-weight: 400;
+  background-color: #f1f3f8;
+}
+
+tr:hover {
+  background-color: #ebfcfb;
+}
+.table tr:nth-child(odd) {
+  background-color: #d6e0f0;
+}
+
+.table tr td {
+  padding: 5px;
+}

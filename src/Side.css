@@ -1,0 +1,26 @@
+.Sidetable {
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  height: 55vh;
+  margin-top: 2rem;
+}
+
+.Sidetable tr {
+  display: flex;
+  justify-content: space-around;
+  color: #69585f;
+  font-weight: 400;
+  background-color: #f1f3f8;
+}
+
+tr:hover {
+  background-color: #fcddbc;
+}
+.Sidetable tr:nth-child(odd) {
+  background-color: #b8d8ba;
+}
+
+.Sidetable tr td {
+  padding: 5px;
+}
